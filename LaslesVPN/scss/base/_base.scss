@@ -1,0 +1,47 @@
+body {
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  color: $regular_color;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.43;
+  margin-bottom: 20px;
+  color: $bold_color;
+}
+
+a {
+  color: $regular_color;
+}
+
+.menu-burger {
+  position: relative;
+  z-index: 5;
+  display: none;
+  width: 40px;
+  height: 100%;
+  cursor: pointer;
+
+  span {
+    background-color: #000;
+    width: 100%;
+    height: 3px;
+    display: block;
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+}
